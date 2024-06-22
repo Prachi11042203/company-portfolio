@@ -1,0 +1,509 @@
+/* nav */
+ .nav-link{ text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+a.active,a:hover{background: #1b9bff;
+    transition: .5s;
+}   
+#navbarSupportedContent{
+    margin-left: 30%;
+}
+.navbar-brand img{
+    margin-top: 10%;
+
+}
+
+
+/* nav end */
+/* hero */
+.c-item{
+
+}
+
+
+/* grid purpose of company */
+
+.riii{
+    height: 800px;
+}
+
+/* hero */
+.c-item{
+ height: 540px;
+}
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+
+/* end */
+
+
+/* footer */
+.footer{
+    height: 100%;
+    width: 100%;
+     background: linear-gradient(to right,#00093c,#2d0b00);
+     color: #fff;
+     border-top-left-radius: 25px;
+     font-size: 13px;
+     line-height: 20px;
+     color: white;
+     font-weight: bolder;
+ }
+.section{
+    width: 100%;
+} 
+/* about  us */
+.imgitem{
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+}
+a{
+    color: white;
+}
+#heading
+{padding-right: 20px;}
+
+.box{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    background-color: rgb(170, 174, 179); 
+    margin-right: 50%;
+    border-radius: 15px;
+    transform: translate(-50PX,-18PX);
+    margin-top: 40PX;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+     
+
+/* services cloud */
+.cloud{
+    width: 100%;
+    height: 600px;
+}
+.clo2{
+    /* display: flex; */
+    justify-content: center;
+    margin-left: 20;
+}
+
+
+
+/* cloud services start */
+#ch5{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    background: linear-gradient(to right,blue ,pink);
+   
+}
+.main{
+background: #eeee;
+}
+
+.row{
+  
+    width: 1000px;
+    margin: 50px;
+} 
+.col-10 img{
+    width: 300px;
+}
+.col-11 img{
+    width: 300px;
+    height: 200px;
+   
+}
+.eye{
+    width: 80%;
+}
+.ra{
+    padding-left: 130px;
+    padding-right: 20px;
+}
+/* cloud end */
+
+
+/* data sciemce start */
+.data{
+    font-size: xx-large;
+    text-align: center;
+    
+}
+.tr{
+    width: 100%;
+    height: 500px;
+}
+#cont{
+    background: linear-gradient(to right,rgb(166, 166, 238) ,pink);
+}
+.cont-img{
+ width: 850px;
+}
+
+/* SUSTAINABILITY start */
+.sustainability{
+    float: right;
+    width: 600px;
+}
+.container-fluid{
+    background: #eeee;
+}
+
+
+/* contact us strat */
+.conb{
+    padding: 0;
+    margin: 0;
+    color: #fff;
+    /* box-sizing: border-box; */
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+.conb{
+    background-image: url('images/istockphoto-1311934969-612x612.jpg');
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 110vh;
+    position: absolute;
+    background-repeat: no-repeat;
+}
+.empty{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 0px;
+    left: 0;
+    z-index: -1;
+}
+header{
+    position: absolute;
+    text-align: center;
+    width: 75%;
+    left: 12%;
+    top: 2rem;
+    /* opacity: 0.3; */
+}
+header h1{
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    min-height: 110vh;
+}
+.content section{
+    margin-top: 8vh;
+    margin-left: 20vh;
+}
+.content-form{
+    margin-top: 7rem;
+}
+section i{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    text-align: center;
+}
+.form{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.form .contact-form input{
+    width: 30rem;
+    background-color: transparent;
+    border: 0px;
+    border: transparent;
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    border-bottom: 2px solid #fff;
+}
+.form .contact-form input ~ span{
+    position: absolute;
+    left: 20px;
+    transition: 0.9s ease-in-out;
+    margin-top: 10px;
+}
+.form .contact-form input:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form textarea{
+    width: 30rem;
+    border: 0px;
+    background-color: transparent;
+    margin: 20px;
+    font-size: 17px;
+    border-bottom: 2px solid white;
+}
+.form .contact-form textarea ~ span
+{
+    position: absolute;
+    left: 20px;
+    margin-top: 10px;
+    transition: 0.9s ease-in-out;
+}
+.form .contact-form textarea:focus ~span{
+    transform: translateY(-20px);
+    pointer-events: none;
+}
+.form .contact-form input[type=submit]{
+    background-color: dodgerblue;
+    border: 2px solid dodgerblue;
+    font-size: 18px;
+    width: 50%;
+    height: 40px;
+    margin-top: -5px;
+}
+.form .contact-form input[type=submit]:hover{
+    background-color: transparent;
+    color: dodgerblue;
+}
+
+/* impact about start */
+.impactbox{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    background-color: rgb(13, 132, 250); 
+    margin-right: 50%;
+    border-radius: 15px;
+    transform: translate(-50PX,-18PX);
+    margin-top: 40PX;
+    
+}
+.impactbox:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+.pos-img{
+    height: 500px;
+    width: 100%;
+}
+/* impact about end */
+
+
+
+/* purpose1 start */
+
+.clearfix {
+    float: right;
+}
+/* purpose1 end */
+
+/* purpose2 start */
+#par3{
+    height: 200px;
+    width: 250px;
+    
+}
+.row{
+    padding: 10px;
+}
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#para{
+    font-weight: lighter;
+}
+.purpose2{
+background-color: #eeee;
+}
+/* purpose2  end */
+
+/* services start */
+.imgse{
+    height: 500px;
+    width: 100%;
+}
+.box1{
+   
+        width: 500px;
+        height: 170px;
+        position: absolute;
+        top: 15%;
+        right: 10%;
+        display: flex;
+        background-color: rgb(188, 211, 253); 
+        margin-left: 50%;
+        border-radius: 15px;
+        transform: translate(-50PX,-18PX);
+        margin-top: 40PX;
+        float: l;
+        font-family: 'Times New Roman', Times, serif;
+        transition: 0.9s ease-in-out;
+        
+       
+    }
+    /* services */
+    .row-img{
+        height: 350px;
+        width: 550px;
+        padding: 15px;
+        transition: 0.9s ease-in-out;
+    }
+    .row-img:hover{
+        transform: scale(1.0);
+    }
+
+    #heading{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: bolder;
+        font-style: inherit;
+    }
+    /* /services end */
+
+    /* career staert */
+    /* hero start */
+.pp{
+    height: 500px;
+    width: 100%;
+  
+
+}
+.pp-text{
+    position: absolute;
+    top: 25%;
+    color: #bcd6d6;
+    padding: 20%;
+}
+.pp h1{
+    font-size: xx-large;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+/* career */
+.box5{
+    height: 500px;
+    width: 500px;
+    padding: 50px;
+    background: #1b9bff;
+    background: wheat;
+}
+.imgitem5{
+    height: 300px;
+    width: 500px;
+    float: right;
+    padding: 10px;
+    margin: 40px;
+    background-color: antiquewhite;
+}
+.imgitem5:hover{
+    transform: scale(1.1);
+}
+.box5:hover{
+    transform: scale(1.1);
+}
+/* opputunity */
+.col3{
+    background-color: #c08f07;
+    height: 200px;
+    font-size: xx-large;
+    padding: 50px;
+    
+}
+.col4{
+    background-color: #1b9bff;
+    height: 200px;
+    padding: 50px;
+    font-size: xx-large;
+}
+.col6{
+    background-color: #047738;
+    height: 200px;
+    font-size: xx-large;
+    padding: 50px;
+}
+
+a{
+    color: black;
+}
+
+
+
+
+
+/* career end */
+/* about start */
+
+/* image */
+.imgitem{
+    width: 100%;
+    height: 600px;
+    opacity: 0.7;
+}
+
+.box{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: flex;
+    background-color: rgb(13, 132, 250); 
+    margin-right: 50%;
+    border-radius: 15px;
+    transform: translate(-50PX,-18PX);
+    margin-top: 40PX;
+    
+}
+.box:hover{
+    transform: scale(1.1);
+    z-index: 2;
+}
+#heading{
+    
+    margin: 15%;
+    color: rgb(248, 238, 238);
+}
+.h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    text-decoration: double;
+    padding: 50px;
+    text-align: center;
+}
+.para{
+    text-align: center;
+    text-shadow: 80px;
+    font-weight: 600;
+    text-decoration: underline;
+} 
+/* who we are */
+
+  #pos-cen{
+
+  }
+
+/* about end */
